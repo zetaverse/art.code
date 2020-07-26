@@ -1,8 +1,8 @@
 function setup() {
-  createCanvas(720, 720);
+  createCanvas(720, 720); // Sets the canvas to be 720px by 720px
   noCursor(); // hides the cursor when pointing within canvas
 
-  colorMode(HSB, 360, 100, 100);
+  colorMode(HSB, 360, 100, 100); // Sets the color mode to HSB from the default RGB.
   rectMode(CENTER); // sets any rect to take the center of the shape as origin
   noStroke(); // removes strokes from any shapes, such as rects
 }
