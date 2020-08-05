@@ -12,6 +12,7 @@ var colorsLeft = [];
 var colorsRight = [];
 var colors = [];
 
+// Boolean switch for changing color mode from RGB to HSB
 var interpolateShortest = true;
 
 function setup() {
